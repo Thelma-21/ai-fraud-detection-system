@@ -36,3 +36,7 @@ pip install streamlit pandas scikit-learn seaborn matplotlib
 
 3. Run the app:
 python3 -m streamlit run fraud_app.py
+
+ ## Dataset
+Download `creditcard.csv` from Kaggle and place it in the project root:
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
