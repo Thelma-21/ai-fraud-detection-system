@@ -14,7 +14,7 @@ st.title("💳 Fraud Detection System")
 # Load and balance dataset
 @st.cache_data
 def load_data():
-    df = pd.read_csv("creditcard.csv")
+    df = pd.read_csv("creditcard_sample.csv")
 
     # Separate majority (legitimate) and minority (fraud) classes
     df_majority = df[df.Class == 0]
